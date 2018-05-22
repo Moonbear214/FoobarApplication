@@ -1,0 +1,39 @@
+<div class="container-fluid">
+  <br>
+
+  <div class="text-center">
+      <p class="lead" *ngIf="loading">Loading...</p>
+  </div>
+
+  <div class="text-center">
+      <h3 *ngIf="noResults">No results</h3>
+  </div>
+
+  <div class="text-center">
+      <h3 *ngIf="requestErr">Something went wrong..</h3>
+  </div>
+
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let foobar of foobars">
+
+      <div class="row">
+        <div class="col text-center">
+          <label>Foos: {{foobar.fooCount}}</label>
+        </div>
+        <div class="col text-center">
+          <label>Bars: {{foobar.barCount}}</label>
+        </div>
+        <div class="col text-center">
+          <label>Foobars: {{foobar.foobarCount}}</label>
+        </div>
+      </div>
+      <br>
+
+      <div class="text-center">
+        <p style="word-wrap: break-word;">{{foobar.result}}</p>
+        <br>
+      </div>
+
+    </li>
+  </ul>
+</div>
