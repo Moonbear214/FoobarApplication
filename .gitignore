@@ -1,0 +1,42 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/foobarFrontend/dist
+/foobarFrontend/tmp
+/foobarFrontend/out-tsc
+
+# dependencies
+/foobarFrontend/node_modules
+
+# IDEs and editors
+/foobarFrontend/.idea
+/foobarFrontend/.project
+/foobarFrontend/.classpath
+/foobarFrontend/.c9/
+/foobarFrontend/*.launch
+/foobarFrontend/.settings/
+/foobarFrontend/*.sublime-workspace
+
+# IDE - VSCode
+/foobarFrontend/.vscode/*
+/foobarFrontend/!.vscode/settings.json
+/foobarFrontend/!.vscode/tasks.json
+/foobarFrontend/!.vscode/launch.json
+/foobarFrontend/!.vscode/extensions.json
+
+# misc
+/foobarFrontend/.sass-cache
+/foobarFrontend/connect.lock
+/foobarFrontend/coverage
+/foobarFrontend/libpeerconnection.log
+/foobarFrontend/npm-debug.log
+/foobarFrontend/yarn-error.log
+/foobarFrontend/testem.log
+/foobarFrontend/typings
+
+# System Files
+/foobarFrontend/.DS_Store
+/foobarFrontend/Thumbs.db
+
+# dropwizard
+/foobarBackend/target
